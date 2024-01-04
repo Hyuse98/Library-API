@@ -1,4 +1,13 @@
 package com.example.LibraryAPI.model;
 
-public class Person{
+import lombok.Data;
+
+import java.util.Date;
+
+@Data
+public class Person {
+
+    private String name;
+    private Adress adress;
+    private Date birthday;
 }
